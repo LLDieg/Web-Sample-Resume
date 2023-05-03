@@ -16,7 +16,7 @@ place-items: center; // only to center the cards inside the container
 
 
 .card {
-    background: #119a10;
+  background-color: var(--card-background-color);
     width: 27rem;
     height: 40rem;
     margin: 50px;
@@ -38,7 +38,7 @@ margin-bottom: 6rem;
 }
 
 .service-card {
-    background: #119a10;
+  background-color: var(--card-background-color);
     width: 27rem;
     height: 30rem;
     margin: 50px;
@@ -79,7 +79,7 @@ margin-bottom: 6rem;
   }
 
   .one-certi {
-background-color: #119a10;
+    background-color: var(--card-background-color);
 padding-top: 5rem;
  }
 
@@ -89,5 +89,5 @@ padding-top: 5rem;
 
 .three-certi {
     padding-top: 5rem;  
-    background-color: #119a10;
+    background-color: var(--card-background-color);
 }

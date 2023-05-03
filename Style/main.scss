@@ -5,7 +5,10 @@
 @import "footer";
 
 :root {
-    font-size:62.5% 
+    font-size:62.5%;
+    --div-background-color: lightgray;
+    --text-color: black;
+    --card-background-color: lightgray;
     }
     
     * {
@@ -17,12 +20,17 @@
 
 body {
 // background-image: url(../Pictures/matrix-code-matrix-rain.jpg);
-background-color: lightgreen;    
+// background-image: url(../Pictures/matrix-5361690_960_720.webp);
+background-image: url(../Pictures/matrix-4493783_960_720.jpg);
+// background-color: lightgreen;    
+
+
+
 font-size: 1.5rem;
-color: white;
+color: var(--text-color);
 }
 
 h2 {
-    background-color: black;
+    background-color: var(--div-background-color);
 padding: 1rem 1rem;
 }
