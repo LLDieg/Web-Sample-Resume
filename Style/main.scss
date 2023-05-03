@@ -1,0 +1,28 @@
+@import "header";
+@import "hero";
+@import "project-services";
+@import "contact";
+@import "footer";
+
+:root {
+    font-size:62.5% 
+    }
+    
+    * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+
+
+body {
+// background-image: url(../Pictures/matrix-code-matrix-rain.jpg);
+background-color: lightgreen;    
+font-size: 1.5rem;
+color: white;
+}
+
+h2 {
+    background-color: black;
+padding: 1rem 1rem;
+}

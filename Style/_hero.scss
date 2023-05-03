@@ -1,0 +1,53 @@
+.hero {
+    width: 100%;
+    // background-image: url(../Pictures/matrix-bg.jpg);
+
+}
+
+
+.large {
+width: 80%;
+// height: 40rem;
+border: 2px solid black;
+background-color: black;
+margin: 5rem auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 3rem;
+}
+.holder {
+   position: relative;
+}
+.pic2 {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.pic2:hover {
+    opacity:1
+    }
+
+.hero-text {
+    padding: 2rem;
+    max-width: 100;
+    font-size: 5rem;
+}
+
+
+.about-text {
+width: 60%;
+margin: 5rem auto;
+font-size: 2rem;
+background-color: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .welcome {
+        display: none;
+    }
+
+}

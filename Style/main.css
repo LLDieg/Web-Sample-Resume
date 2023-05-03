@@ -1,0 +1,219 @@
+header {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  z-index: 1;
+}
+header .left {
+  padding-left: 2rem;
+}
+header h1 {
+  padding-top: 1rem;
+}
+header .right {
+  display: flex;
+  margin-left: auto;
+}
+header .right ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 40rem;
+  list-style-type: none;
+}
+header .right a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .left {
+    display: none;
+  }
+  .right ul {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    list-style-type: none;
+  }
+}
+.hero {
+  width: 100%;
+}
+
+.large {
+  width: 80%;
+  border: 2px solid black;
+  background-color: black;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.holder {
+  position: relative;
+}
+
+.pic2 {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+
+.pic2:hover {
+  opacity: 1;
+}
+
+.hero-text {
+  padding: 2rem;
+  max-width: 100;
+  font-size: 5rem;
+}
+
+.about-text {
+  width: 60%;
+  margin: 5rem auto;
+  font-size: 2rem;
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .welcome {
+    display: none;
+  }
+}
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center;
+}
+
+.card {
+  background: #119a10;
+  width: 27rem;
+  height: 40rem;
+  margin: 50px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card p {
+  margin: 2rem 2rem;
+}
+
+.container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 15rem;
+  margin-bottom: 6rem;
+}
+
+.service-card {
+  background: #119a10;
+  width: 27rem;
+  height: 30rem;
+  margin: 50px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-card h3 {
+  margin: 4rem;
+}
+
+.service-card a {
+  margin-top: 3rem;
+}
+
+.service-card p {
+  margin: 2rem;
+}
+
+.certificate-card {
+  width: 30rem;
+  height: 30rem;
+  margin: 50px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.one-certi {
+  background-color: #119a10;
+  padding-top: 5rem;
+}
+
+.two-certi {
+  padding-top: 5rem;
+}
+
+.three-certi {
+  padding-top: 5rem;
+  background-color: #119a10;
+}
+
+.contact-box {
+  width: 50%;
+  max-width: 80rem;
+  text-align: center;
+  border: 2px solid black;
+  margin: 2rem auto;
+}
+
+#Full-Name, #Email, #message, button {
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 0.3rem;
+}
+
+footer a {
+  color: white;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgreen;
+  font-size: 1.5rem;
+  color: white;
+}
+
+h2 {
+  background-color: black;
+  padding: 1rem 1rem;
+}/*# sourceMappingURL=main.css.map */

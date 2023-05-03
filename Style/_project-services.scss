@@ -1,0 +1,93 @@
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, (minmax(300px, 1fr)));
+
+place-items: center; // only to center the cards inside the container
+}
+
+
+
+
+.card {
+    background: #119a10;
+    width: 27rem;
+    height: 40rem;
+    margin: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card p {
+    margin: 2rem 2rem;
+  }
+
+.container img {
+    object-fit: cover;
+width: 15rem;
+margin-bottom: 6rem;
+}
+
+.service-card {
+    background: #119a10;
+    width: 27rem;
+    height: 30rem;
+    margin: 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .service-card h3 {
+    margin: 4rem;
+  }
+
+  .service-card a {
+    margin-top: 3rem
+  }
+
+.service-card p {
+    margin: 2rem
+}
+
+  .certificate-card {
+   
+    width: 30rem;
+    height: 30rem;
+    margin: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-position: center;
+  }
+
+  .one-certi {
+background-color: #119a10;
+padding-top: 5rem;
+ }
+
+.two-certi {
+    padding-top: 5rem; 
+}
+
+.three-certi {
+    padding-top: 5rem;  
+    background-color: #119a10;
+}
