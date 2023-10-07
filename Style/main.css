@@ -32,7 +32,7 @@ header .right a {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 600px) {
   .left {
     display: none;
   }
@@ -211,7 +211,6 @@ footer a {
 }
 
 body {
-  background-image: url(../Pictures/matrix-4493783_960_720.jpg);
   font-size: 1.5rem;
   color: var(--text-color);
 }
@@ -219,4 +218,10 @@ body {
 h2 {
   background-color: var(--div-background-color);
   padding: 1rem 1rem;
+}
+
+.video-background {
+  min-width: 100vw;
+  position: fixed;
+  z-index: -1;
 }/*# sourceMappingURL=main.css.map */

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
   
 
 
@@ -14,8 +14,23 @@
 <link rel="stylesheet" href="bootstrap.min.css">
 
     <link rel="stylesheet" href="./Style/main.css" />
-
+    <link rel="stylesheet" href="./style.css">
     <title>WebPage Resume</title>
+  <style>@media screen and (max-width: 600px) {
+    .left {
+        display: none;
+    }
+    .right ul {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+      
+        width: 100%;
+        list-style-type: none;
+      }
+    
+    
+    }</style>
   </head>
   <body>
     <header>
@@ -33,7 +48,11 @@
       </div>
     </header>
 
+<video class="video-background" autoplay muted loop> <source src="./Pictures/matrix-background-pexels.mp4" type="video/mp4">
+</video>
+
     <section class="hero">
+
       <div class="large">
         <h1 class="welcome">WELCOME TO MY WEB DEVELOPMENT</h1>
         <div class="holder">
